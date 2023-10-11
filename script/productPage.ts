@@ -19,7 +19,7 @@ function addToCart(event: Event) {
     console.log(target.id);
 
     cartItems[target.id] = cartItems[target.id]==null ? 1 : cartItems[target.id]+1;
-    alert("Item has been added to your card!");
+    alert("Item has been added to your cart!");
 
     saveCartToLocalStorate();
 }
